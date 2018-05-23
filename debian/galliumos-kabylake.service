@@ -1,0 +1,10 @@
+[Unit]
+Description=GalliumOS system customization for Kaby Lake models
+
+[Service]
+ExecStart=/usr/bin/init-kabylake-settings
+Type=oneshot
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

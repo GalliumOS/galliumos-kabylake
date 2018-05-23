@@ -1,0 +1,15 @@
+Source: galliumos-kabylake
+Section: admin
+Priority: required
+Maintainer: GalliumOS <galliumos@galliumos.org>
+Standards-Version: 3.9.1
+
+Package: galliumos-kabylake
+Architecture: all
+Priority: required
+Depends: galliumos-base, linux-image-galliumos-kabylake
+Provides: galliumos-device
+Conflicts: galliumos-sandyivy, galliumos-haswell, galliumos-baytrail, galliumos-broadwell, galliumos-samus, galliumos-braswell, galliumos-skylake, galliumos-apollolake, Xgalliumos-kabylake
+Replaces: pulseaudio
+Description: GalliumOS Kaby Lake customizations
+ This package contains Kaby Lake-specific files for GalliumOS
